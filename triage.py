@@ -30,6 +30,12 @@ except ImportError:
     print("Missing dependency. Run: pip install anthropic --break-system-packages")
     sys.exit(1)
 
+try:
+    from dotenv import load_dotenv
+    load_dotenv()  # reads .env in the current directory, if present
+except ImportError:
+    pass  # dotenv is optional — falls back to a real exported env var
+
 TICKETS_FILE = "tickets.csv"
 BANDWIDTH_FILE = "bandwidth.csv"
 LOG_FILE = "reasoning_log.jsonl"
