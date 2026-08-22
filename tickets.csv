@@ -1,0 +1,6 @@
+ticket_id,description,created_date,current_status,sprint_id,is_vip_account,blocks_ticket_ids,sla_deadline,current_owner,human_confirmed_priority
+T-101,"UAT environment failing to create test data for the new payment reconciliation flow, blocking QA sign-off before release",2026-08-20,backlog,S14,True,T-104;T-105,2026-08-24,Maria,
+T-102,"Minor CSS alignment issue on the settings page footer",2026-08-19,backlog,S14,False,,,James,
+T-103,"Production bug: intermittent 500 errors on the /accounts/balance endpoint for a subset of users",2026-08-21,backlog,S14,True,,2026-08-22,Maria,
+T-104,"Feature ticket: add CSV export option to the transaction history page",2026-08-15,in_progress,S14,False,,,James,
+T-105,"thing is broken again",2026-08-21,backlog,S14,False,,,Priya,

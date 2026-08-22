@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+reasoning_log.jsonl
+.env
